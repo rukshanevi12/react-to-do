@@ -1,13 +1,41 @@
 const List = () => {
   return (
-    <div className="w-50">
-      <ul className="list-group text-info">
-        <li className="list-group-item">Task 1</li>
-        <li className="list-group-item">Task 2</li>
-        <li className="list-group-item">Task 3</li>
-        <li className="list-group-item">Task 4</li>
-      </ul>
-    </div>
+    <>
+      <div className="w-50">
+        <div className="row p-3 bg-light-subtle text-dark rounded shadow-sm mb-3 mx-0 align-items-center">
+          <div className="col-11">
+            <h5 className="mb-0">Task 1</h5>
+          </div>
+          <div className="col-1 d-flex justify-content-center align-items-center">
+            <button type="button" className="btn-close"></button>
+          </div>
+        </div>
+        <div className="row p-3 bg-light-subtle text-dark rounded shadow-sm mb-3 mx-0 align-items-center">
+          <div className="col-11">
+            <h5 className="mb-0">Task 2</h5>
+          </div>
+          <div className="col-1 d-flex justify-content-center align-items-center">
+            <button type="button" className="btn-close"></button>
+          </div>
+        </div>
+        <div className="row p-3 bg-light-subtle text-dark rounded shadow-sm mb-3 mx-0 align-items-center">
+          <div className="col-11">
+            <h5 className="mb-0">Task 3</h5>
+          </div>
+          <div className="col-1 d-flex justify-content-center align-items-center">
+            <button type="button" className="btn-close"></button>
+          </div>
+        </div>
+        <div className="row p-3 bg-light-subtle text-dark rounded shadow-sm mb-3 mx-0 align-items-center">
+          <div className="col-11">
+            <h5 className="mb-0">Task 4</h5>
+          </div>
+          <div className="col-1 d-flex justify-content-center align-items-center">
+            <button type="button" className="btn-close"></button>
+          </div>
+        </div>
+      </div>
+    </>
   );
 };
 
