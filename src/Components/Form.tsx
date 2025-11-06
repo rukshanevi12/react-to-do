@@ -1,13 +1,13 @@
 const Form = () => {
   return (
-    <form className="d-flex justify-content-center align-items-center gap-3 col-6 flex-wrap">
+    <form className="d-flex justify-content-center align-items-center gap-3 w-50 mx-auto">
       <input
         type="text"
-        className="form-control w-auto flex-grow-1"
+        className="form-control form-control-lg flex-grow-1"
         placeholder="Type task here"
       />
-      <button type="submit" className="btn btn-info">
-        Add Task
+      <button type="submit" className="btn btn-info btn-lg px-4">
+        Add
       </button>
     </form>
   );
